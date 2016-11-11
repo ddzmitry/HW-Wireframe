@@ -1,0 +1,111 @@
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+    height: 960px;
+    width: 960px;
+ 	background: #777;
+ 	margin: 0;
+ 	padding: 0;
+ 	background-color: #777;
+ 	color: #656262 /* #ebebeb  - too bright on my laptop*/;
+ 	font-family: serif; Times;
+ }
+
+
+ #wrapper{
+
+ 	position: relative;
+ 	width: 900px;
+ 	height: 900px;
+ 	margin: 0 auto 0 auto;
+ 	text-align: center;
+ 	left: 480px;
+
+ 	 }
+
+#header {
+	position: relative;
+	margin-top: 10px;
+	height: 50px;
+	background-color: white;
+	margin-bottom: 5px;
+	padding-top: 10px;
+
+}
+#nav {
+	position: relative;
+	height: 50px;
+	background-color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+#section {
+	position: relative;
+	width: 495px;
+	color: black;
+	background-color: white;
+	height: 200px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 40px;
+
+
+}
+#article {
+	color: white;
+	padding-top: 10px;
+	position: absolute;
+	background-color: grey;
+	width: 450px;
+	margin-left: 10px;
+	bottom: 0;
+	margin-bottom: 5px;
+
+}
+
+#heading {
+	color: #656262;
+	position: relative;
+	background-color: white;
+	width: 350px;
+	margin-left: 50px;
+	height: 35px;
+	padding-top: 10px;
+}
+#paragraph {
+	color: #656262;
+	background-color: white;
+	position: relative;
+	width: 350px;
+	margin-left: 50px;
+	height: 35px;
+	padding-top: 10px;
+
+}
+
+
+#aside {
+	position: relative;
+	width: 395px;
+	height: 200px;
+	margin-left: 10px;
+	background-color: white;
+	float: left;
+	padding-top: 50px;
+}
+
+#footer {
+	bottom: 525px;
+	position: absolute;
+	clear: both;
+	overflow: auto;
+	background-color: white;
+	height: 50px;
+	width: 900px;
+	padding-top: 10px;
+
+
+}
